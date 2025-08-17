@@ -78,4 +78,27 @@ To generate the grouped bar chart, the Severity Level (Minor, Moderate, Critical
 This grouped bar chart compares repair costs across three defect types, segmented by severity level. Critical defects incur the highest costs (peaking at $74K for structural issues), while moderate defects show more uniform cost distribution ($47K–$57K). Structural defects consistently dominate costs across all severity levels, suggesting they are the primary cost driver. Notably, cosmetic defects have the lowest costs for minor/moderate severity but escalate sharply for critical cases, indicating a severity-dependent cost profile. Functional defects follow a mid-range pattern, warranting further investigation into root causes.
 
 ![Grouped Bar Chart](GroupedBarChart.png)
+
 *Comparative Analysis of Repair Costs by Severity Level and Defect Type*
+
+# What I learned
+- **🔧 Data-Driven Prioritization**: Structural defects and surface issues require urgent QC focus due to high frequency/cost.
+
+- **⚖️ Inspection Trade-Offs**: Automated Testing reduces Critical defect costs but may miss minor issues; Visual Inspection is thorough but expensive.
+
+- **📊 DAX Measures Matter**: Proper use of CALCULATE and COUNTROWS enabled dynamic severity analysis.
+
+# Conclusions
+
+### Insights
+1. **Cost Drivers:**
+Structural defects and Critical severity levels contribute disproportionately to repair expenses.
+
+3. **Inspection Optimization:**
+Combine Automated Testing (for early detection) with targeted Manual Testing to balance cost and accuracy.
+
+5. **Quality Control:**
+Surface and component defects, though frequent, are less costly than structural issues—focus improvements accordingly.
+
+### Closing Thoughts
+This project strengthened my Power BI skills while revealing critical insights for manufacturing quality control. The analysis identifies high-impact areas like structural defects and inspection method trade-offs, providing actionable strategies to reduce costs. For quality teams, these data-driven insights enable smarter resource allocation and process improvements. The experience reinforced how analytics transforms operational data into real business value—a powerful tool for any manufacturing environment.
