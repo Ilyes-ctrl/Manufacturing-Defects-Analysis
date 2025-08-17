@@ -41,3 +41,9 @@ The Treemap shows that surface defects are the most frequent, with 353 occurrenc
 ![Treemap](Treemap.png)
 
 *The treemap presents the categories surface, component, and internal, each represented by a proportional area corresponding to its number of defects.*
+
+## 3. What is the distribution of defects across the different severity levels?
+
+### Insights
+
+![Gauge](Gauge.png)
