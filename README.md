@@ -46,4 +46,4 @@ The Treemap shows that surface defects are the most frequent, with 353 occurrenc
 
 ### Insights
 
-![Gauge](Gauge.png)
+![Gauge](Gauge2.png)
