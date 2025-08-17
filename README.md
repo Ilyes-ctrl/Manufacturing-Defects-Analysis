@@ -43,6 +43,7 @@ The Treemap shows that surface defects are the most frequent, with 353 occurrenc
 *The treemap presents the categories surface, component, and internal, each represented by a proportional area corresponding to its number of defects.*
 
 ## 3. What is the distribution of defects across the different severity levels?
+To analyze the distribution of defect severity levels, I created three gauge visualizations in Power BI. Each gauge is dedicated to one severity category: Minor Defects, Moderate Defects, and Critical Defects. For each category, I defined a specific DAX measure that counts the number of defects falling into that severity group using the `CALCULATE` and `COUNTROWS` functions. For instance, the Minor Defects gauge is driven by the measure `Minor Defects = CALCULATE(COUNTROWS('defects_data'),'defects_data'[severity] = "Minor")` while the other two gauges follow the same logic with "Moderate" and "Critical" as filters. To provide context for the gauge scale, I set the minimum value to the lowest "defect_id" and the maximum value to the highest "defect_id", ensuring that each gauge is aligned with the dataset’s overall defect range. This approach allows for a clear and immediate visualization of how many defects of each severity level are present relative to the dataset.
 
 ### Insights
 
