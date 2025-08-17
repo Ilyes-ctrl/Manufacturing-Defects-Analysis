@@ -51,3 +51,8 @@ The three gauges provide a distribution of product defects by severity level out
 ![Gauge](Gauge2.png)
 
 *The three gauges indicate a balanced distribution of defects across all severity levels.*
+
+## 4. What is the total number of defects?
+## 5. What is the total number of defective products?
+## 6. What is the total repair cost?
+
