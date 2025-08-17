@@ -14,9 +14,8 @@ The goal is to provide clear insights for improving production quality 🏭 and 
 4. What is the total number of defects?
 5. What is the total number of defective products?
 6. What is the total repair cost?
-7. What is the repair cost by severity level?
-8. What is the repair cost by defect type?
-9. What is the repair cost by inspection method?
+7. What is the repair cost by inspection method and severity level?
+8. What is the repair cost by severity level and defect type?
 # Tools I used
 For my analysis of manufacturing defects, I harnessed the power of several key tools:
 - **Kaggle**: The source of my raw dataset, providing real-world manufacturing defect data to work with.
@@ -62,4 +61,11 @@ The KPIs provide a clear overview of the production quality and financial impact
 
 *Key Performance Indicators Displaying Total Defects, Total Defective Products, and Total Cost of Repairs*
 
+## 7. What is the repair cost by inspection method and severity level?
+To assess how repair costs vary across different inspection methods and severity levels, I created a stacked column chart in Power BI. The x-axis represents the inspection methods (manual testing, visual inspection, and automated testing), and the y-axis shows the total repair costs by summing the repair_cost column. Data labels were enabled to provide a clear view of the exact values for each segment, allowing for an immediate comparison across methods and severity levels.
+
+### Insights
+This stacked column chart analyzes repair costs across three inspection methods (Manual Testing, Visual Inspection, Automated Testing) by severity level (Critical, Moderate, Minor). Visual Inspection incurs the highest total costs ($184K), driven by steep Critical repairs ($71K), suggesting it may detect more severe issues—or overestimate them. Automated Testing has the lowest Critical costs ($52K) but higher Moderate/Minor expenses, hinting at early issue detection. Manual Testing is the most cost-efficient ($158K total), though its lower Critical costs raise questions about thoroughness. Key takeaway: method choice significantly impacts cost distribution, with trade-offs between severity detection and expense efficiency. Further analysis of error rates and combined approaches could optimize outcomes.
+
+![CSCSI](ColumnStackedChartSeverityInspection.png)
 
