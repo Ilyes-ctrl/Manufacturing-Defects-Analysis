@@ -86,7 +86,7 @@ This grouped bar chart compares repair costs across three defect types, segmente
 
 - **⚖️ Inspection Trade-Offs**: Automated Testing reduces Critical defect costs but may miss minor issues; Visual Inspection is thorough but expensive.
 
-- **📊 DAX Measures Matter**: Proper use of CALCULATE and COUNTROWS enabled dynamic severity analysis.
+- **📊 DAX Measures Matter**: Proper use of `CALCULATE` and `COUNTROWS` enabled dynamic severity analysis.
 
 # Conclusions
 
