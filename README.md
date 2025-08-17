@@ -15,7 +15,10 @@ The goal is to provide clear insights for improving production quality 🏭 and 
 5. What is the total number of defective products?
 6. What is the total repair cost?
 7. What is the repair cost by severity level?
-
 8. What is the repair cost by defect type?
-
 9. What is the repair cost by inspection method?
+# Tools I used
+For my analysis of manufacturing defects, I harnessed the power of several key tools:
+- **Kaggle**: The source of my raw dataset, providing real-world manufacturing defect data to work with.
+- **Microsoft Excel**: My workspace for cleaning and preparing the data, ensuring consistency and accuracy before analysis.
+- **Power BI**: The powerhouse for creating interactive dashboards and visualizations, transforming raw numbers into actionable insights.
