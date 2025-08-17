@@ -37,7 +37,7 @@ In order to analyze the distribution of defects by location, I created the follo
 ### Insights
 The Treemap shows that surface defects are the most frequent, with 353 occurrences, slightly higher than component defects at 326 and internal defects at 321. While surface issues stand out as the largest category, the relatively small gap between the three suggests that defects are fairly evenly distributed across locations, with no single area overwhelmingly dominant.
 
-![Treemap](Treemap.png)
+![Treemap](/assets/Treemap.png)
 
 *The treemap presents the categories surface, component, and internal, each represented by a proportional area corresponding to its number of defects.*
 
@@ -47,7 +47,7 @@ To analyze the distribution of defect severity levels, I created three gauge vis
 ### Insights
 The three gauges provide a distribution of product defects by severity level out of a total of 1,000 defective products. The Minor Defects gauge indicates 358 cases, representing 35.8% of the total. The Moderate Defects gauge shows 309 cases, accounting for 30.9%. The Critical Defects gauge highlights 333 cases, corresponding to 33.3%. This balanced distribution reveals that defects are spread relatively evenly across severity levels, with minor defects being slightly more frequent, while critical defects remain a significant portion, underscoring the need for prioritization in addressing higher-severity issues.
 
-![Gauge](Gauge2.png)
+![Gauge](/assets/Gauge2.png)
 
 *The three gauges indicate a balanced distribution of defects across all severity levels.*
 
@@ -57,7 +57,7 @@ I developed three card visualizations to highlight key performance indicators (K
 ### Insights
 The KPIs provide a clear overview of the production quality and financial impact of defects. The Total Defects value of 1,000 indicates a significant number of individual defects across all products. The Total Defective Products count of 100 shows that these defects are concentrated across a relatively small number of products, suggesting multiple defects per item. The Total Cost of Repairs, amounting to $507,630, highlights the substantial financial burden associated with addressing these defects, emphasizing the importance of targeted quality control measures to reduce both defect frequency and repair expenses.
 
-![KPIs](KPIs.png)
+![KPIs](/assets/KPIs.png)
 
 *Key Performance Indicators Displaying Total Defects, Total Defective Products, and Total Cost of Repairs*
 
@@ -67,7 +67,7 @@ To assess how repair costs vary across different inspection methods and severity
 ### Insights
 This stacked column chart analyzes repair costs across three inspection methods (Manual Testing, Visual Inspection, Automated Testing) by severity level (Critical, Moderate, Minor). Visual Inspection incurs the highest total costs ($184K), driven by steep Critical repairs ($71K), suggesting it may detect more severe issues—or overestimate them. Automated Testing has the lowest Critical costs ($52K) but higher Moderate/Minor expenses, hinting at early issue detection. Manual Testing is the most cost-efficient ($158K total), though its lower Critical costs raise questions about thoroughness. Key takeaway: method choice significantly impacts cost distribution, with trade-offs between severity detection and expense efficiency. Further analysis of error rates and combined approaches could optimize outcomes.
 
-![CSCSI](ColumnStackedChartSeverityInspection.png)
+![CSCSI](/assets/ColumnStackedChartSeverityInspection.png)
 
 *Comparative Analysis of Repair Cost Distributions Across Inspection Methods by Severity Level*
 
@@ -77,7 +77,7 @@ To generate the grouped bar chart, the Severity Level (Minor, Moderate, Critical
 ### Insights
 This grouped bar chart compares repair costs across three defect types, segmented by severity level. Critical defects incur the highest costs (peaking at $74K for structural issues), while moderate defects show more uniform cost distribution ($47K–$57K). Structural defects consistently dominate costs across all severity levels, suggesting they are the primary cost driver. Notably, cosmetic defects have the lowest costs for minor/moderate severity but escalate sharply for critical cases, indicating a severity-dependent cost profile. Functional defects follow a mid-range pattern, warranting further investigation into root causes.
 
-![Grouped Bar Chart](GroupedBarChart.png)
+![Grouped Bar Chart](/assets/GroupedBarChart.png)
 
 *Comparative Analysis of Repair Costs by Severity Level and Defect Type*
 
