@@ -69,3 +69,13 @@ This stacked column chart analyzes repair costs across three inspection methods 
 
 ![CSCSI](ColumnStackedChartSeverityInspection.png)
 
+*Comparative Analysis of Repair Cost Distributions Across Inspection Methods by Severity Level*
+
+## 8. What is the repair cost by severity level and defect type?
+To generate the grouped bar chart, the Severity Level (Minor, Moderate, Critical) and Defect Type (Cosmetic, Functional, Structural) fields were assigned to the x-axis, while the y-axis displayed the aggregated sum of Repair Cost from the dataset. The Severity Level field was applied to the legend to enable color-coded grouping, and data labels were activated to display exact cost values for precise comparison. This visualization was selected to effectively analyze cost distributions across defect categories and severity levels.
+
+### Insights
+This grouped bar chart compares repair costs across three defect types, segmented by severity level. Critical defects incur the highest costs (peaking at $74K for structural issues), while moderate defects show more uniform cost distribution ($47K–$57K). Structural defects consistently dominate costs across all severity levels, suggesting they are the primary cost driver. Notably, cosmetic defects have the lowest costs for minor/moderate severity but escalate sharply for critical cases, indicating a severity-dependent cost profile. Functional defects follow a mid-range pattern, warranting further investigation into root causes.
+
+![Grouped Bar Chart](GroupedBarChart.png)
+*Comparative Analysis of Repair Costs by Severity Level and Defect Type*
