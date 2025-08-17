@@ -52,7 +52,14 @@ The three gauges provide a distribution of product defects by severity level out
 
 *The three gauges indicate a balanced distribution of defects across all severity levels.*
 
-## 4. What is the total number of defects?
-## 5. What is the total number of defective products?
-## 6. What is the total repair cost?
+## 4 - 5 - 6. What is the total number of defects, defective products & the total repair cost?
+I developed three card visualizations to highlight key performance indicators (KPIs). The first card, Total Defects, presents the overall count of defect IDs recorded in the dataset. The second card, Total Defective Products, reflects the distinct number of products affected by defects. The third card, Total Cost of Repairs, represents the aggregate repair expenses derived from the repair cost data.
+
+### Insights
+The KPIs provide a clear overview of the production quality and financial impact of defects. The Total Defects value of 1,000 indicates a significant number of individual defects across all products. The Total Defective Products count of 100 shows that these defects are concentrated across a relatively small number of products, suggesting multiple defects per item. The Total Cost of Repairs, amounting to $507,630, highlights the substantial financial burden associated with addressing these defects, emphasizing the importance of targeted quality control measures to reduce both defect frequency and repair expenses.
+
+![KPIs](KPIs.png)
+
+*Key Performance Indicators Displaying Total Defects, Total Defective Products, and Total Cost of Repairs*
+
 
