@@ -32,3 +32,10 @@ The analysis shows that the majority of defects are Structural (352 cases), foll
 ![Stacked Column Chart](/visual2.png)
 
 *The stacked column chart displays the different categories of defects, with each column representing a defect type and its corresponding count.*
+
+## 2. What is the distribution of defects across the different defect locations?
+In order to analyze the distribution of defects by location, I created the following Treemap. The category field was set to Defect Location, distinguishing between surface, component, and internal defects, while the values field was set to Defects to represent their frequency. This visualization makes it easier to compare the relative occurrence of each defect type.
+### Insights
+The Treemap shows that surface defects are the most frequent, with 353 occurrences, slightly higher than component defects at 326 and internal defects at 321. While surface issues stand out as the largest category, the relatively small gap between the three suggests that defects are fairly evenly distributed across locations, with no single area overwhelmingly dominant.
+
+![Treemap](
