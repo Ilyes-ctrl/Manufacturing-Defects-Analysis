@@ -28,7 +28,7 @@ To assess the distribution of product defects, I created a stacked column chart 
 ### Insights
 The analysis shows that the majority of defects are Structural (352 cases), followed closely by Functional defects (339 cases) and Cosmetic defects (309 cases). While the distribution is relatively balanced, structural issues represent the largest share, suggesting that improvements in structural quality control could have the most significant impact on reducing overall defect rates.
 
-![Stacked Column Chart](/visual2.png)
+![Stacked Column Chart](/assets/visual2)
 
 *The stacked column chart displays the different categories of defects, with each column representing a defect type and its corresponding count.*
 
