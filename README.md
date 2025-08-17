@@ -38,4 +38,6 @@ In order to analyze the distribution of defects by location, I created the follo
 ### Insights
 The Treemap shows that surface defects are the most frequent, with 353 occurrences, slightly higher than component defects at 326 and internal defects at 321. While surface issues stand out as the largest category, the relatively small gap between the three suggests that defects are fairly evenly distributed across locations, with no single area overwhelmingly dominant.
 
-![Treemap](
+![Treemap](Treemap.png)
+
+*The treemap presents the categories surface, component, and internal, each represented by a proportional area corresponding to its number of defects.*
